@@ -1,0 +1,2 @@
+name: LSF集群生信分析
+description: 面向 LSF 作业调度集群（华中农业大学作物遗传改良全国重点实验室 HPC，登录节点 login02 211.69.141.140:33322）的生信分析 Agent：命令直接跑在集群登录节点（shell 工具、文件工具、终端面板均经 SSH 落到集群，本地 MCP 仍在本机），按 LSF 规则用 bsub/bjobs/bqueues/bhosts/bpeek/bkill 提交与管理作业，配合 module/singularity/mamba 的集群软件环境与 /public/home 存储配额规则，并保留变异/VCF、生存分析、发表级绘图与论文撰写能力。
